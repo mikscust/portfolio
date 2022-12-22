@@ -1,0 +1,203 @@
+:root {
+  /* colors */
+  --color-cloudless: rgb(213, 233, 255);
+  --color-bluetiful: rgb(37, 99, 235);
+  --color-matt-blue: rgb(56, 96, 190);
+  --color-vulcan: rgb(46, 54, 68);
+  --color-vulcan-2: rgb(93, 178, 254);
+  --color-hello-summer: rgb(39, 69, 92);
+  --color-one-year-of-rain: rgb(104, 182, 49);
+  --color-leaf: rgba(255, 255, 255, 0.3);
+  --color-white: rgb(255, 255, 255);
+  --color-white-2: rgb(248, 248, 248);
+  --color-doctor: rgb(244, 244, 244);
+  --color-lighthouse: rgb(242, 241, 241);
+  --color-beluga: rgb(233, 233, 233);
+  --color-plaster: rgb(226, 226, 226);
+  --color-jupiter: rgb(221, 221, 221);
+  --color-grey-area: rgb(216, 216, 216);
+  --color-desired-dawn: rgb(212, 212, 212);
+  --color-pinball: rgb(209, 209, 209);
+  --color-pinball-2: rgb(187, 187, 187);
+  --color-dust-to-dust: rgb(163, 163, 163);
+  --color-dark-souls: rgb(107, 114, 128);
+  --color-night-rendezvous: rgb(115, 115, 115);
+  --color-bank-vault: rgb(105, 105, 105);
+  --color-volcanic-rock: rgb(101, 101, 101);
+  --color-excalibur: rgb(86, 86, 86);
+  --color-zombie: rgb(85, 85, 85);
+  --color-trout: rgb(82, 82, 82);
+  --color-trout-2: rgb(64, 64, 64);
+  --color-black-truffle: rgb(55, 56, 59);
+  --color-nero: rgba(38, 38, 38, 0.6);
+  --color-nero-2: rgb(38, 38, 38);
+  --color-dark-void: rgb(23, 23, 23);
+  --color-black: rgba(0, 0, 0, 0.5);
+  --color-black-2: rgb(0, 0, 0);
+
+  /* typography */
+  --font-1: normal normal 300 60px/60px Aeonik, -apple-system, Arial, sans-serif;
+  --font-2: normal normal 400 36px/45px Aeonik, -apple-system, Arial, sans-serif;
+  --font-3: normal normal 400 30px/45px Aeonik, -apple-system, Arial, sans-serif;
+  --font-4: normal normal 400 24px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-5: normal normal 400 20px/30px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-6: normal normal 400 18px/29.7px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-7: normal normal 400 18px/24.75px Aeonik, -apple-system, Arial, sans-serif;
+  --font-8: normal normal 400 18px/29.7px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-9: normal normal 700 18px/21.6px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-10: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-11: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-12: normal normal 400 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-13: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-14: normal normal 400 16px/26.4px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-15: normal normal 400 16px/26.4px Aeonik, -apple-system, Arial, sans-serif;
+  --font-16: normal normal 400 16px/16px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-17: normal normal 400 16px/26.4px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-18: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-19: normal normal 500 16px/16px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-20: normal normal 400 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-21: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-22: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-23: normal normal 500 16px/26.4px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-24: normal normal 400 16px/24px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-25: normal normal 400 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-26: normal normal 600 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-27: normal normal 400 16px/17.6px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-28: normal normal 400 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-29: normal normal 700 16px/20.8px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-30: normal normal 700 16px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-31: normal normal 400 14.4px/38px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-32: normal normal 700 14.4px/14.4px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-33: normal normal 700 14.08px/19.712px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-34: normal normal 700 14.08px/19.712px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-35: normal normal 400 14px/21px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-36: normal normal 400 14px/21px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-37: normal normal 400 14px/20px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-38: normal normal 400 14px/21px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-39: normal normal 400 14px/21px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-40: normal normal 400 14px/20px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-41: normal normal 400 13.6px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-42: normal normal 400 13.008px/19.512px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-43: normal normal 700 13.008px/19.512px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-44: normal normal 400 13.008px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-45: normal normal 400 13.008px/19.512px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-46: normal normal 400 13.008px/19.512px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-47: normal normal 400 13.008px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-48: normal normal 700 12.96px/18.144px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-49: normal normal 400 12px/18px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-50: normal normal 400 12px/18px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-51: normal normal 500 12px/18px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-52: normal normal 400 12px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-53: normal normal 700 12px/12px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-54: normal normal 700 12px/12px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-55: normal normal 400 12px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-56: normal normal 400 12px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-57: normal normal 400 11.2px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-58: normal normal 400 11.2px/12.32px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-59: normal normal 400 11.04px/15.456px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-60: normal normal 400 11.04px/15.456px Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-61: normal normal 400 8.96px/normal Inter, system-ui, -apple-system, Arial, sans-serif;
+
+  /* vertical spacing */
+  --vspace-1: 100%;
+  --vspace-2: -1px;
+  --vspace-3: 1px;
+  --vspace-4: 2px;
+  --vspace-5: -2px;
+  --vspace-6: 3px;
+  --vspace-7: 0.25rem;
+  --vspace-8: 5px;
+  --vspace-9: 0.375rem;
+  --vspace-10: 6px;
+  --vspace-11: -0.5rem;
+  --vspace-12: 0.5rem;
+  --vspace-13: 0.625em;
+  --vspace-14: 10px;
+  --vspace-15: 11.5px;
+  --vspace-16: 12px;
+  --vspace-17: 0.75rem;
+  --vspace-18: 15px;
+  --vspace-19: 1em;
+  --vspace-20: 1rem;
+  --vspace-21: 19px;
+  --vspace-22: 20px;
+  --vspace-23: 1.25em;
+  --vspace-24: 1.5rem;
+  --vspace-25: 25px;
+  --vspace-26: 2rem;
+  --vspace-27: 40px;
+  --vspace-28: 2.5rem;
+  --vspace-29: 3rem;
+  --vspace-30: 4rem;
+  --vspace-31: 72px;
+  --vspace-32: 6rem;
+
+  /* horizontal spacing */
+  --hspace-1: 0.1ex;
+  --hspace-2: 1px;
+  --hspace-3: -1px;
+  --hspace-4: 2px;
+  --hspace-5: 0.25rem;
+  --hspace-6: 5px;
+  --hspace-7: 0.375rem;
+  --hspace-8: 7px;
+  --hspace-9: 0.5rem;
+  --hspace-10: 8px;
+  --hspace-11: 9px;
+  --hspace-12: 10px;
+  --hspace-13: 0.75rem;
+  --hspace-14: 13px;
+  --hspace-15: 15px;
+  --hspace-16: 1em;
+  --hspace-17: 1rem;
+  --hspace-18: 17px;
+  --hspace-19: 20px;
+  --hspace-20: 23px;
+  --hspace-21: 1.5rem;
+  --hspace-22: -1.5rem;
+  --hspace-23: 25px;
+  --hspace-24: 27px;
+  --hspace-25: 30px;
+  --hspace-26: 2rem;
+  --hspace-27: 2em;
+  --hspace-28: 35px;
+  --hspace-29: 2.5rem;
+  --hspace-30: 3rem;
+
+  /* border radii */
+  --border-radius-1: 0.5rem;
+  --border-radius-2: 9999px;
+  --border-radius-3: 0.75rem;
+  --border-radius-4: 1rem;
+  --border-radius-5: 1.5rem;
+  --border-radius-6: 34px;
+  --border-radius-7: 0.375rem;
+  --border-radius-8: 2px;
+  --border-radius-9: 4px;
+  --border-radius-10: 20px;
+  --border-radius-11: 1px;
+  --border-radius-12: 50px;
+  --border-radius-13: 17px;
+  --border-radius-14: 3px;
+
+  /* shadows */
+  --shadow-1: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+  --shadow-2: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  --shadow-3: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  --shadow-4: rgba(0, 0, 0, 0.2) 0px 0px 18px;
+  --shadow-5: rgb(153, 153, 153) 0px 2px 10px -3px;
+  --shadow-6: rgb(199, 197, 199) 0px 0px 12px 2px;
+  --shadow-7: rgb(199, 197, 199) -3px -3px 5px -2px;
+
+  /* motion */
+  --transition-1: transform 0.5s ease-out 0s;
+  --transition-2: all 0.2s ease-in 0s;
+  --transition-3: all 0.1s ease 0s;
+  --transition-4: all 0.2s ease 0s;
+  --transition-5: all 0.25s ease-out 0s;
+}
+
+
+
+
+
